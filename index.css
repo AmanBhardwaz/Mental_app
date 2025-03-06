@@ -9,7 +9,7 @@
 header {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15)), url("img/Mental_Health.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15)), url("./Mental_Health.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
