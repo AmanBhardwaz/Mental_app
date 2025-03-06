@@ -1,51 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mental App</title>
     <link rel="stylesheet" type="text/css" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <h1>Mentis</h1>
-            </div>
-            <button class="menu-btn" id="menuToggle">
-                <i class="fas fa-bars"></i>
-            </button>
-            
-                
-            <div class="menu" id="menu">
-                <a href="#">Home</a>
-                <a href="#">Contact Us</a>
-                <a href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA" target="_blank">About</a>
-                <a href="#">Chatbox</a>
-                <a href="#">Help</a>
-            </div>
-        </nav>
-        <main>
-            <section>
-                <h3>Welcome To Our Website</h3>
-                <h1>Have complete peace from <span class="change_content"></span> <span>|</span></h1>
-                <p>"Get assistance"</p>
-                <a href="#" class="btnone">Learn More</a>
-                <a href="#" class="btntwo">Signup Here</a>
-            </section>
-        </main>
-    </header>
 
-    <script>
-        const menuToggle = document.getElementById('menuToggle');
-        const menu = document.getElementById('menu');
+<header>
+    <video autoplay muted loop>
+        <source src="aman.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="overlay"></div>
 
-        menuToggle.addEventListener('click', () => {
-            menu.classList.toggle('active');
-        });
-    </script>
+<nav>
+    <div class="logo"><h1 style="font-size: 30px;">Mentis</h1></div>
+    <div class="menu">
+        <!-- <a href="index.html" style="font-size: 20px;">Home</a> -->
+        <a href="Home.html" target="b">Home</a>
+
+        <a href="Contact.html">Contact Us</a>
+        <a href="about.html" target="_blank">About</a>
+        <a href="chatbox.html">Chatbox</a>
+        <a href="help.html">Help</a>
+    </div>
+</nav>
+
+    <main>
+        <section>
+            <h3>Welcome To Our Website</h3>
+            <h1>Have complete peace from <span class="change_content"></span> <span style="margin-top: -10px;"> | </span></h1>
+            <p>"Get assistance"</p>
+            <a href="Home.html" class="btnone">Learn More</a>
+            <a href="signup.html" class="btntwo">Sign Up Here</a>
+        </section>
+    </main>
+
+</header>
+
 </body>
 </html>
